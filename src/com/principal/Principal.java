@@ -24,7 +24,7 @@ public class Principal {
         Scanner scan = new Scanner(System.in);
         ServiciosCompu servicios = new ServiciosCompu();
         do{
-            System.out.println("Ingresa la opción deseada 1)Añadir, 2)Revisar,3)Modificar, 4)Eliminar, 5)Salir");
+            System.out.println("Ingresa la opción deseada 1)Añadir PC, 2)Revisar PC,3)Modificar PC, 4)EliminarPC, 5)Salir");
             int opcion = scan.nextInt();
             switch(opcion){
                 case 1:
